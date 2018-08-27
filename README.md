@@ -8,7 +8,7 @@ mvn package
 
 and then:
 
-mvn org.codehaus.mojo:exec-maven-plugin:exec -Dexec.executable=java -Dexec.args="-cp %classpath io.vertx.core.Launcher run io.vertx.project.Server"
+mvn org.codehaus.mojo:exec-maven-plugin:exec -Dexec.executable=java -Dexec.args="-cp %classpath io.vertx.core.Launcher run io.vertx.blog.first.Server"
 
 In order to run:
 
